@@ -1,16 +1,149 @@
-# React + Vite
+# 🎓 ScholarSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **An AI-Powered Student ERP Platform designed to modernize college management and enhance the student experience.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+ScholarSync is a modern Student ERP (Enterprise Resource Planning) system that combines traditional college management features with AI-powered tools.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of ScholarSync is to provide students, faculty, Training & Placement (TNP) officers, and administrators with a centralized platform for managing academic activities, communication, placements, assignments, attendance, examinations, and AI-assisted learning.
 
-## Expanding the ESLint configuration
+This project is being developed as a professional portfolio project using modern web technologies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🚀 Features
+
+### 👨‍🎓 Student Module
+
+* Dashboard
+* Student Profile
+* Attendance
+* Academics
+* Timetable
+* Assignments
+* Examination Results
+* Fee Payment
+* Notices
+* Messages
+* Placement Eligibility
+* AI Study Assistant
+
+---
+
+### 👨‍🏫 Teacher Module
+
+* Student Management
+* Attendance Management
+* Assignment Upload
+* Marks Management
+* Notices
+* Student Communication
+
+---
+
+### 💼 Training & Placement (TNP)
+
+* Company Management
+* Placement Eligibility
+* Student Shortlisting
+* Recruitment Dashboard
+
+---
+
+### 👨‍💼 Admin Module
+
+* User Management
+* ERP Configuration
+* Notices
+* Academic Management
+* Reports
+* System Monitoring
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* CSS
+* JavaScript
+
+### Backend (Planned)
+
+* Node.js
+* Express.js
+
+### Database (Planned)
+
+* MongoDB
+
+### AI Integration (Planned)
+
+* Python
+* Machine Learning
+* OpenAI API / LLM Integration
+
+---
+
+# 📂 Project Structure
+
+```text
+ScholarSync/
+│
+├── docs/
+├── notes/
+├── src/
+├── public/
+├── README.md
+└── package.json
+```
+
+---
+
+# 📈 Current Progress
+
+* ✅ Project Planning
+* ✅ Documentation Structure
+* ✅ React Setup
+* ✅ Component Architecture
+* ✅ Navbar
+* ✅ Sidebar
+* ✅ Dashboard
+* ✅ Props
+* ✅ Flexbox Layout
+* ✅ Initial UI
+
+---
+
+# 🎯 Roadmap
+
+* Professional UI
+* React Router
+* Authentication
+* Backend APIs
+* Database Integration
+* AI Features
+* Deployment
+
+---
+
+# 📚 Documentation
+
+Project documentation is available inside the **docs/** directory.
+
+Learning notes are maintained inside the **notes/** directory.
+
+---
+
+# 👨‍💻 Developer
+
+**Tushar Shukla**
+
+B.Tech CSE (Data Science)
+
+Portfolio Project - ScholarSync
