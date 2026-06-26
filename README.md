@@ -1,149 +1,161 @@
 # 🎓 ScholarSync
 
-> **An AI-Powered Student ERP Platform designed to modernize college management and enhance the student experience.**
+An AI-powered College ERP and Student Learning Platform built with React.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Vision
 
-ScholarSync is a modern Student ERP (Enterprise Resource Planning) system that combines traditional college management features with AI-powered tools.
+ScholarSync is designed to provide students with a single platform for managing academics, assessments, placements, fees, analytics, and AI-powered learning assistance.
 
-The goal of ScholarSync is to provide students, faculty, Training & Placement (TNP) officers, and administrators with a centralized platform for managing academic activities, communication, placements, assignments, attendance, examinations, and AI-assisted learning.
-
-This project is being developed as a professional portfolio project using modern web technologies.
+Instead of switching between multiple college portals, students can access everything from one modern dashboard.
 
 ---
 
-# 🚀 Features
+## ✨ Features
 
-### 👨‍🎓 Student Module
+### Student Dashboard
 
-* Dashboard
-* Student Profile
-* Attendance
-* Academics
-* Timetable
-* Assignments
-* Examination Results
-* Fee Payment
-* Notices
-* Messages
-* Placement Eligibility
-* AI Study Assistant
+- Attendance Overview
+- CGPA Tracking
+- Assessment Progress
+- Fee Status
+- Announcements
+- Today's Classes
 
 ---
 
-### 👨‍🏫 Teacher Module
+### Academics
 
-* Student Management
-* Attendance Management
-* Assignment Upload
-* Marks Management
-* Notices
-* Student Communication
+- Semester Results
+- Report Card
+- Subject Performance
+- Academic History
 
 ---
 
-### 💼 Training & Placement (TNP)
+### Assessments
 
-* Company Management
-* Placement Eligibility
-* Student Shortlisting
-* Recruitment Dashboard
-
----
-
-### 👨‍💼 Admin Module
-
-* User Management
-* ERP Configuration
-* Notices
-* Academic Management
-* Reports
-* System Monitoring
+- Coding Assessments
+- Aptitude Tests
+- Reasoning Tests
+- SQL Practice
+- Verbal Ability
 
 ---
 
-# 🛠 Tech Stack
+### Placements
 
-### Frontend
-
-* React
-* Vite
-* CSS
-* JavaScript
-
-### Backend (Planned)
-
-* Node.js
-* Express.js
-
-### Database (Planned)
-
-* MongoDB
-
-### AI Integration (Planned)
-
-* Python
-* Machine Learning
-* OpenAI API / LLM Integration
+- Company Drives
+- Eligibility Status
+- Interview Progress
+- Placement Analytics
 
 ---
 
-# 📂 Project Structure
+### Fees
+
+- Fee Status
+- Online Payment
+- Receipt Download
+- Payment History
+
+---
+
+### AI Assistant
+
+Future Feature
+
+An AI-powered academic assistant capable of:
+
+- Answering academic questions
+- Explaining concepts
+- Summarizing PDFs
+- Helping with coding
+- Study planning
+
+---
+
+## 🛠 Tech Stack
+
+Frontend
+
+- React
+- Vite
+- JavaScript
+- React Router
+- React Icons
+- CSS3
+
+Future
+
+- Node.js
+- Express.js
+- MongoDB
+- Python (AI Services)
+- FastAPI
+
+---
+
+## 📁 Project Structure
 
 ```text
-ScholarSync/
-│
-├── docs/
-├── notes/
-├── src/
-├── public/
-├── README.md
-└── package.json
+src/
+
+assets/
+
+components/
+
+pages/
+
+App.jsx
+
+main.jsx
 ```
 
 ---
 
-# 📈 Current Progress
+## 📚 Learning Journey
 
-* ✅ Project Planning
-* ✅ Documentation Structure
-* ✅ React Setup
-* ✅ Component Architecture
-* ✅ Navbar
-* ✅ Sidebar
-* ✅ Dashboard
-* ✅ Props
-* ✅ Flexbox Layout
-* ✅ Initial UI
+This repository is also used to document the complete React learning journey.
 
----
+Documentation includes:
 
-# 🎯 Roadmap
-
-* Professional UI
-* React Router
-* Authentication
-* Backend APIs
-* Database Integration
-* AI Features
-* Deployment
+- React Notes
+- Project Documentation
+- UI Design
+- Changelog
+- Daily Development Log
 
 ---
 
-# 📚 Documentation
+## 📌 Current Status
 
-Project documentation is available inside the **docs/** directory.
-
-Learning notes are maintained inside the **notes/** directory.
+- React Fundamentals ✅
+- Dashboard UI ✅
+- React Router (In Progress)
+- Profile Module (Upcoming)
+- Academics Module (Upcoming)
 
 ---
 
-# 👨‍💻 Developer
+## 🎯 Future Roadmap
+
+- Authentication
+- Student Profile
+- Academics Module
+- Assessment System
+- Placement Portal
+- AI Copilot
+- Backend Integration
+- Deployment
+
+---
+
+## 👨‍💻 Developer
 
 **Tushar Shukla**
 
 B.Tech CSE (Data Science)
 
-Portfolio Project - ScholarSync
+Building ScholarSync as a portfolio project while learning modern React development.

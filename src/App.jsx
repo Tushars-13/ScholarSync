@@ -1,24 +1,37 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
-import Dashboard from './components/Dashboard'
+import "./App.css";
+
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+
+import { Routes, Route } from "react-router-dom";
+
+import DashboardPage from "./pages/DashboardPage";
+import ProfilePage from "./pages/ProfilePage";
+import AcademicsPage from "./pages/AcademicsPage";
 
 function App() {
   return (
-  <div className= "app">
-    <Navbar
-      name="Tushar"
-      cgpa="7.1"
-      department="CSE-DS"
-    />
+    <div className="app">
 
-    <div className= "content">
-      <Sidebar />
-      <Dashboard />
+      <Navbar />
+
+      <div className="content">
+
+        <Sidebar />
+
+        <Routes>
+
+          <Route path="/" element={<DashboardPage />} />
+
+          <Route path="/profile" element={<ProfilePage />} />
+
+          <Route path="/academics" element={<AcademicsPage />} />
+
+        </Routes>
+
+      </div>
+
     </div>
-
-  </div>
-  )
-  
-}
-export default App
+  );
+} 
+export default App;
