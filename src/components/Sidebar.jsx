@@ -1,16 +1,26 @@
+import { NavLink } from "react-router-dom";
+
+const menuItems = [
+  { name: "Dashboard", path: "/", icon: "🏠" },
+  { name: "Profile", path: "/profile", icon: "👤" },
+  { name: "Academics", path: "/academics", icon: "🎓" },
+];
+
 function Sidebar() {
   return (
     <aside className="sidebar">
 
-      <h3>ScholarSync</h3>
+      <h2 className="sidebar-logo">ScholarSync</h2>
 
       <ul>
 
-        <li>🏠 Dashboard</li>
-
-        <li>👤 Profile</li>
-
-        <li>🎓 Academics</li>
+        {menuItems.map((item) => (
+          <li key={item.path}>
+            <NavLink to={item.path}>
+              {item.icon} {item.name}
+            </NavLink>
+          </li>
+        ))}
 
         <li>🧠 Assessments</li>
 
@@ -24,7 +34,7 @@ function Sidebar() {
 
         <li>📊 Analytics</li>
 
-        <li>⚙️ Settings</li>
+        <li>⚙ Settings</li>
 
       </ul>
 

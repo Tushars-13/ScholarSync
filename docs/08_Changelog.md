@@ -121,3 +121,35 @@ Dashboard UI ✅
 React Router Setup ✅
 Pages Structure ✅
 Navigation (Next Session)
+
+# 2026-06-27
+
+## React Router Navigation
+
+### Navigation
+- Added React Router navigation using NavLink.
+- Sidebar now supports active page highlighting.
+- Navigation works without page refresh (SPA).
+
+---
+
+### Sidebar Improvements
+- Converted static sidebar into dynamic navigation.
+- Used an array with `.map()` to generate menu items.
+- Improved scalability and maintainability.
+
+---
+
+### Profile Module
+- Created Student Profile page.
+- Added profile avatar.
+- Added student information section.
+- Added skills section.
+- Added Edit Profile button.
+- Styled using reusable design principles.
+
+---
+
+Status:
+Profile Module ✅
+React Navigation ✅
