@@ -1,11 +1,15 @@
+import PageHeader from "../components/PageHeader";
+import PrimaryButton from "../components/PrimaryButton";
+
 function ProfilePage() {
   return (
     <main className="dashboard">
 
-      <div className="welcome">
-        <h1>👤 Student Profile</h1>
-        <p>Manage your personal and academic information.</p>
-      </div>
+      <PageHeader
+        icon="👤"
+        title="Student Profile"
+        subtitle="Manage your personal and academic information."
+      />
 
       <div className="profile-card">
 
@@ -61,9 +65,9 @@ function ProfilePage() {
 
         </div>
 
-        <button className="edit-btn">
-          Edit Profile
-        </button>
+        <PrimaryButton
+          text="Edit Profile"
+        />
 
       </div>
 

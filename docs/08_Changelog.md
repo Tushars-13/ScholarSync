@@ -153,3 +153,59 @@ Navigation (Next Session)
 Status:
 Profile Module ✅
 React Navigation ✅
+
+---
+
+# 27 June 2026 (Session 2)
+
+## Project Architecture Refactoring
+
+### Components
+- Created reusable PageHeader component.
+- Created reusable InfoPanel component using React children.
+- Created reusable PrimaryButton component.
+- Introduced AcademicStatCard component for Academics module.
+- Started building reusable CircularProgress component.
+
+---
+
+### Folder Structure
+- Reorganized components into:
+  - components/layout
+  - components/ui
+  - components/features (reserved for future)
+
+- Updated imports after refactoring.
+
+---
+
+### Academics Module Planning
+Finalized architecture for Academics page:
+
+- Overall CGPA
+- Active Backlogs
+- Certificates
+- Current Subjects
+- Internal Assessments
+- Upcoming Exams
+- Semester Results
+
+---
+
+### Product Decisions
+- Dashboard is an Overview Page.
+- Dashboard never owns data.
+- Every module owns its own data.
+- Dashboard only summarizes data from other modules.
+
+---
+
+### Circular Progress
+- Planned reusable CircularProgress component.
+- Added initial UI structure.
+- Added SVG foundation (progress implementation pending).
+
+Status:
+Architecture Refactored ✅
+Academics Planning ✅
+CircularProgress Foundation ✅

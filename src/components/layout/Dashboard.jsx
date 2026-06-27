@@ -5,10 +5,10 @@ import {
     FaMoneyBillWave,
     FaBullhorn,
 } from "react-icons/fa";
-
 import { MdClass } from "react-icons/md";
-
 import StatCard from "./StatCard";
+import InfoPanel from "./InfoPanel";
+import PageHeader from "./PageHeader";
 
 
 function Dashboard() {
@@ -17,13 +17,11 @@ function Dashboard() {
 
             {/* Welcome Section */}
 
-            <div className="welcome">
-                <h1>Good Evening, Tushar 👋</h1>
-
-                <p>
-                    Welcome back! Let's make today productive.
-                </p>
-            </div>
+            <PageHeader
+                icon="👋"
+                title="Good Evening, Tushar"
+                subtitle="Welcome back! Let's make today productive."
+            />
 
             {/* Summary Cards */}
 
@@ -60,29 +58,39 @@ function Dashboard() {
 
             <div className="dashboard-grid">
 
-                <div className="panel">
-
-                    <h2><FaBullhorn /> Announcements</h2>
+                <InfoPanel
+                    icon="📢"
+                    title="Announcements"
+                >
 
                     <ul>
+
                         <li>DBMS Quiz on Monday</li>
+
                         <li>Placement Drive starts next week</li>
+
                         <li>Hackathon registrations are open</li>
+
                     </ul>
 
-                </div>
+                </InfoPanel>
 
-                <div className="panel">
-
-                    <h2><MdClass /> Today's Classes</h2>
+                <InfoPanel
+                    icon="📅"
+                    title="Today's Classes"
+                >
 
                     <ul>
+
                         <li>DBMS — 10:00 AM</li>
+
                         <li>Machine Learning — 12:00 PM</li>
+
                         <li>DSA — 2:00 PM</li>
+
                     </ul>
 
-                </div>
+                </InfoPanel>
 
             </div>
 

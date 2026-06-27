@@ -40,10 +40,27 @@ Completed:
 - Pages Architecture
 ---
 
+## Phase 4 🚧
+
+Reusable Component Library
+
+Completed:
+
+- PageHeader
+- InfoPanel
+- PrimaryButton
+- AcademicStatCard
+- Component Refactoring
+- Folder Reorganization
+
+In Progress:
+
+- CircularProgress (SVG)
+
+
 ## Upcoming Phases
 
-Phase 4
-- Profile
+
 
 Phase 5
 - Academics
