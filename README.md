@@ -1,5 +1,5 @@
 # 🎓 ScholarSync
-
+   
 An AI-powered College ERP and Student Learning Platform built with React.
 
 ---
