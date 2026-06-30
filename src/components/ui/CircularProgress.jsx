@@ -4,6 +4,14 @@ function CircularProgress({
   label,
   status,
 }) {
+  const radius = 60;
+
+  const circumference = 2 * Math.PI * radius;
+
+  const progress = value / max;
+
+  const offset = circumference * (1 - progress);
+
   return (
     <div className="circular-progress">
 
@@ -25,7 +33,9 @@ function CircularProgress({
             className="progress-ring-fill"
             cx="70"
             cy="70"
-            r="60"
+            r={radius}
+            strokeDasharray={circumference}
+            strokeDashoffset={offset}
           />
         </svg>
 

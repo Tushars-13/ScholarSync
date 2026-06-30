@@ -1,5 +1,5 @@
-import PageHeader from "../components/PageHeader";
-import PrimaryButton from "../components/PrimaryButton";
+import PageHeader from "../components/layout/PageHeader";
+import PrimaryButton from "../components/ui/PrimaryButton";
 
 function ProfilePage() {
   return (

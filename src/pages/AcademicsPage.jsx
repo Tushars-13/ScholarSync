@@ -1,6 +1,9 @@
 import PageHeader from "../components/layout/PageHeader";
 import PrimaryButton from "../components/ui/PrimaryButton";
-import AcademicStatCard from "../components/ui/AcademicStatCard";
+import ProgressStatCard from "../components/ui/ProgressStatCard";
+import InfoStatCard from "../components/ui/InfoStatCard";
+import AssessmentTable from "../components/ui/AssessmentTable";
+import UpcomingExams from "../components/ui/UpcomingExams";
 
 function AcademicsPage() {
   return (
@@ -16,21 +19,21 @@ function AcademicsPage() {
 
       <div className="academic-overview">
 
-        <AcademicStatCard
-          icon="🎓"
+        <ProgressStatCard
           title="Overall CGPA"
-          value="7.10"
+          value={7.10}
+          max={10}
           status="Good Standing"
         />
 
-        <AcademicStatCard
+        <InfoStatCard
           icon="📚"
           title="Active Backlogs"
           value="0"
           status="No Active Backlogs"
         />
 
-        <AcademicStatCard
+        <InfoStatCard
           icon="🏆"
           title="Certificates"
           value="12"
@@ -67,9 +70,7 @@ function AcademicsPage() {
 
         <h2>📝 Internal Assessments</h2>
 
-        <p>
-          Assessment table will be added in the next task.
-        </p>
+        <AssessmentTable />
 
       </div>
 
@@ -79,9 +80,7 @@ function AcademicsPage() {
 
         <h2>📅 Upcoming Exams</h2>
 
-        <p>
-          Exam schedule will be added in the next task.
-        </p>
+        <UpcomingExams />
 
       </div>
 

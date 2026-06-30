@@ -6,8 +6,8 @@ import {
     FaBullhorn,
 } from "react-icons/fa";
 import { MdClass } from "react-icons/md";
-import StatCard from "./StatCard";
-import InfoPanel from "./InfoPanel";
+import StatCard from "../ui/StatCard";
+import InfoPanel from "../ui/InfoPanel";
 import PageHeader from "./PageHeader";
 
 
