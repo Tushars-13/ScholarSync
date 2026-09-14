@@ -3,15 +3,18 @@ import {
     FaGraduationCap,
     FaBrain,
     FaMoneyBillWave,
-    FaBullhorn,
 } from "react-icons/fa";
-import { MdClass } from "react-icons/md";
 import StatCard from "../ui/StatCard";
 import InfoPanel from "../ui/InfoPanel";
 import PageHeader from "./PageHeader";
+import { useStudentProfile } from "../../context/useStudentProfile";
 
 
 function Dashboard() {
+    const { profile } = useStudentProfile();
+    // Use the first name for the greeting
+    const firstName = profile.fullName.split(" ")[0];
+
     return (
         <main className="dashboard">
 
@@ -19,7 +22,7 @@ function Dashboard() {
 
             <PageHeader
                 icon="👋"
-                title="Good Evening, Tushar"
+                title={`Good Evening, ${firstName}`}
                 subtitle="Welcome back! Let's make today productive."
             />
 

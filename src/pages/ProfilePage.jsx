@@ -1,7 +1,18 @@
 import PageHeader from "../components/layout/PageHeader";
 import PrimaryButton from "../components/ui/PrimaryButton";
+import { useStudentProfile } from "../context/useStudentProfile";
 
 function ProfilePage() {
+  const { profile } = useStudentProfile();
+
+  // Generate initials from the full name for the avatar
+  const initials = profile.fullName
+    .split(" ")
+    .map((n) => n[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+
   return (
     <main className="dashboard">
 
@@ -16,12 +27,12 @@ function ProfilePage() {
         <div className="profile-header">
 
           <div className="profile-avatar">
-            TS
+            {initials}
           </div>
 
           <div>
 
-            <h2>Tushar Shukla</h2>
+            <h2>{profile.fullName}</h2>
 
             <p>B.Tech CSE - Data Science</p>
 
@@ -35,15 +46,15 @@ function ProfilePage() {
 
         <div className="profile-details">
 
-          <p><strong>Enrollment No:</strong> 2201640100XX</p>
+          <p><strong>Enrollment No:</strong> {profile.enrollmentNo}</p>
 
           <p><strong>Semester:</strong> 7</p>
 
           <p><strong>CGPA:</strong> 7.10</p>
 
-          <p><strong>Email:</strong> tushar@email.com</p>
+          <p><strong>Email:</strong> {profile.personalEmail}</p>
 
-          <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+          <p><strong>Phone:</strong> {profile.phone}</p>
 
         </div>
 
@@ -75,4 +86,4 @@ function ProfilePage() {
   );
 }
 
-export default ProfilePage;
+export default ProfilePage;
